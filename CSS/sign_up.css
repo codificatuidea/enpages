@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../img/brett-jordan-Ss3U6bEtKww-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.contenedor {
+    width: 90%;    
+    margin: 5px;
+    padding: 5px;
+}
+
+
+ h1, a:hover {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-decoration: none;
+}
+
+form {
+    margin-top: 40px;
+    width: 400px;
+}
+
+form label {
+    color:white;
+}

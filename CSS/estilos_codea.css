@@ -1,0 +1,168 @@
+/*--Estilos body--*/
+*{
+    margin: 0;
+    padding:0;
+}
+
+.contenedor {
+  padding: 60px 0; 
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.codea_logo{
+    width: 100px;
+    height: 140px;
+}
+
+.logo h2 {
+    display: inline-block;
+    padding: 8px;
+    margin: 40px;
+    margin-bottom: 30px;
+    font-family: 'Press Start 2P', cursive;
+    font-size:  30px;
+    color: #fff;
+}
+
+/*a, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+*/
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+} 
+
+.titulo {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*--Header--*/
+
+header {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(184, 53%, 54%, 0.609), hsla(294, 48%, 65%, 0.609), hsla(29, 99%, 68%, 0.609)), url(../img/annie-spratt-fvaB1MK6NxM-unsplash.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(184, 53%, 54%, 0.609), hsla(294, 48%, 65%, 0.609), hsla(29, 99%, 68%, 0.609)), url(../img/annie-spratt-fvaB1MK6NxM-unsplash.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header .flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: -20px;
+    width: 100%;
+}
+
+nav > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav > a:hover {
+    color: rgb(223, 165, 165);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header .texto_header {
+    margin-top: 70px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+header .button_position{
+    position: relative;
+    margin-left: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+}
+h3 {
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+}
+
+/*-- Abroad studies --*/
+
+.abroad_texts{
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+/*--Benefits banner--*/
+
+h4 .benefit_title{
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+
+.benefit_cont {
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+}
+.benefit_ind{
+    width: 28%;
+    text-align: center;
+}
+
+/*--suscription space--*/
+
+.suscription_col{
+    float: none;
+    margin: 10px auto;
+    background-color: hsla(294, 53%, 69%, 0.822);
+    width: 300px;
+    height: 430px;
+    border-radius: 20px;
+    -webkit-box-shadow: 6px 5px 5px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 6px 5px 5px -1px rgba(0,0,0,0.5);
+    box-shadow: 6px 5px 5px -1px rgba(0,0,0,0.5);
+}
+.test_elements {
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.test_elements p{
+    color: white;
+    font-size: 16;
+    padding: 5px;
+}
+/*--Footer--*/
+
+footer{
+    width: 100%;
+    height: 75px;
+}
+.content_footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+}
+h5 {
+    font-family: 'Press Start 2P', cursive;
+}

@@ -1,0 +1,17 @@
+
+.contenedor{
+    margin: auto;
+    width:80%;
+}
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    margin:5px;
+}
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    padding:5px;
+    margin: 5px;
+}

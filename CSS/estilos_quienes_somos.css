@@ -1,0 +1,160 @@
+
+
+.container {
+    padding: 60px 0; 
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.container section  {
+    text-align:center;
+}
+/*Header*/
+header {
+    position: relative;
+    width:  100%;
+    height: 600px;
+    background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(184, 53%, 54%, 0.609), hsla(294, 48%, 65%, 0.609), hsla(29, 99%, 68%, 0.609)), url(../img/ali-yahya-Tn224epst1E-unsplash.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(184, 53%, 54%, 0.609), hsla(294, 48%, 65%, 0.609), hsla(29, 99%, 68%, 0.609)), url(../img/ali-yahya-Tn224epst1E-unsplash.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wave {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: -20px;
+    width: 100%;
+}
+.logo h2{
+    display: inline-block;
+    margin: 40px;
+    margin-bottom: 24px;
+    font-family: 'Press Start 2P', cursive;
+    font-size:  28px;
+    color: #fff;
+}
+.flex {
+    display:flex;
+    justify-content: space-around;
+}
+nav > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav > a:hover {
+    color: rgb(223, 165, 165);
+    text-decoration: none;
+    font-size: 17px;
+}
+.textos_header{
+    padding: 20px;
+    margin-top: 100px;
+    text-align:center;
+    color: white;
+}
+/*Quienes somos - descripción*/
+
+h2 {
+    margin-bottom: 30px;
+    padding: 5px;
+    font-size:  32px;
+}
+
+/*Seccion clientes*/
+.client_ban{
+    padding:10px;
+    margin: auto;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 5px;
+    color: black;
+    width: 450px;
+    height: 220px;
+}
+
+.circle_photo_1 {   
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: 25px 30px;
+    background-color: white;
+    border-radius: 70px;
+    background-image: url(../img/aryo-lahap-nlQKYGyqooI-unsplash.jpg);
+}
+.circle_photo_2 {   
+    width: 150px;
+    height: 150px;
+    margin: 25px 30px;
+    background-color: white;
+    border-radius: 70px;
+    background-image: url(../img//andre-tan-nX0mSJ999Og-unsplash.jpg);
+}
+.circle_photo_3 {   
+    width: 150px;
+    height: 150px;
+    margin: 25px 30px;
+    background-color: white;
+    border-radius: 70px;
+    background-image: url(../img/ashwini-chaudhary-uClYmc_Y_Dw-unsplash.jpg);
+}
+.client_comment{
+    margin: 35px 30px;
+    text-align: justify;
+}
+/*Team*/
+
+.card-testimonio{
+    padding: 5px;
+    margin: 10px;
+    background-color: hsla(294, 53%, 69%, 0.822);
+    border-radius: 5px;
+    
+    -webkit-box-shadow: 6px 5px 5px -2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 6px 5px 5px -2px rgba(0,0,0,0.3);
+    box-shadow: 6px 5px 5px -2px rgba(0,0,0,0.3);
+    
+    width: 280px;
+    height: 350px;
+}
+
+.card-testimonio img {
+    border-radius:90px;
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    margin: 20px 40px;
+}
+.card-testimonio h4 {
+    color:white;
+    text-align: center;
+    font-size: 16px;
+}
+.text_team {
+    color:white;
+    padding: 5px;
+    text-align: center;
+}
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 75px;
+}
+.content_footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+}
+h5 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 19px;
+}
+footer li>a{
+    font-size: 14px;
+    padding: 1px;
+    margin: -1px;
+}
